@@ -122,8 +122,8 @@ class Appodeal {
         _nonSkippableCallback?.call(call.method);
       }
 
-      return null;
-    } as Future<dynamic> Function(MethodCall)?);
+      return Future.delayed(Duration.zero);
+    });
   }
 
   /// Define a callback to track banner ad events.
