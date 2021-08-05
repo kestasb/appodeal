@@ -30,6 +30,7 @@ class AppodealFlutterPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
         channel.setMethodCallHandler(this)
 
         Appodeal.setSharedAdsInstanceAcrossActivities(true)
+        Appodeal.setSmartBanners(true)
     }
 
     override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
