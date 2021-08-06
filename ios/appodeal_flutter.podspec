@@ -24,7 +24,7 @@ A Flutter plugin to display ads from Appodeal; it supports the new reqs for iOS 
   # s.dependency 'APDAppLovinAdapter', '2.10.1.2'
   # s.dependency 'APDBidMachineAdapter', '2.10.1.2'
   # s.dependency 'APDChartboostAdapter', '2.10.1.1'
-  s.dependency 'APDFacebookAudienceAdapter', '2.10.1.1'
+  # s.dependency 'APDFacebookAudienceAdapter', '2.10.1.1'
   s.dependency 'APDGoogleAdMobAdapter', '2.10.1.1'
   # s.dependency 'APDInMobiAdapter', '2.10.1.1'
   # s.dependency 'APDIronSourceAdapter', '2.10.1.2'
